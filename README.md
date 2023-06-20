@@ -148,7 +148,7 @@ While we are not ultimately using our Random Forest model, we were able to gain 
 ##### Community Engagement
 - On average, the snowboarding subreddit community engaged with each other by posting longer messages (mean length: 345 characters and 62 words per author, compared to 170 characters and 31 words in the skiing community) and upvoting fewer messages and/or upvoting without comment/further engagement (mean upvotes: 34 vs. 762 in the skiing community).
 - On average the skiing community engaged with each other by upvoting more messages and commenting more with each post (mean comments: 56 per author post vs. 15 in the snowboarding community)
-<img src ="./images/Author_Level.png" width="1000" height="800">
+<img src ="./images/Author_Level.png" width="1000" height="500">
     
 - The skiing subreddit community had a much stronger correlation between post score and number of comments (R = 0.59, respectively), potentially indicating higher discussion-based engagement, whereas snowboarding may be more informative posts, stories, announcements, or otherwise posts which do not create as much need for discussion or comment beyond giving an upvote. 
     
