@@ -158,7 +158,7 @@ While we are not ultimately using our Random Forest model, we were able to gain 
 - Top words among the snowboarding community had more to do with gear, performance, technique, or the experience **in or during** the activity. Whereas, top words among the skiing community aligned more with the experience **around** the activity, such as the best place to go, the best time of year, the best passes to get (epic pass, season pass, Ikon pass). 
     - It is possible that, compared to the snowboarding community, the skiing community had more members planning general ski trips/vacations, likely including members who did not intend to partake in any slope activity at all. Therefore there may be more conversations around trip planning and recommendations, rather than the act of skiing itself - which does not seem to be the case as much for the snowboarding community. 
 
-<img src ="./images/Top_Snowboard_Unigrams.png" width="650" height="400"><img src ="./images/Top_Skiing_Unigrams.png" width="650" height="400">
+<img src ="./images/Top_Snowboard_Unigrams.png" width="650" height="600"><img src ="./images/Top_Skiing_Unigrams.png" width="650" height="600">
 
 <img src ="./images/Top_Words_Side_by_Side.png" width="1000" height="800">
 
