@@ -152,7 +152,7 @@ While we are not ultimately using our Random Forest model, we were able to gain 
     
 - The skiing subreddit community had a much stronger correlation between post score and number of comments (R = 0.59, respectively), potentially indicating higher discussion-based engagement, whereas snowboarding may be more informative posts, stories, announcements, or otherwise posts which do not create as much need for discussion or comment beyond giving an upvote. 
     
-<img src ="./images/Correlation_Matrix.png" width="1000" height="850">
+<img src ="./images/Correlation_Matrix.png" width="1000" height="600">
 
 ##### Community Top Words 
 - Top words among the snowboarding community had more to do with gear, performance, technique, or the experience **in or during** the activity. Whereas, top words among the skiing community aligned more with the experience **around** the activity, such as the best place to go, the best time of year, the best passes to get (epic pass, season pass, Ikon pass). 
