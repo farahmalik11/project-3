@@ -64,7 +64,7 @@ In order for our model to be useful, it needed to outperform the baseline model/
     - They also mention the best passes, such as epic pass, season pass, and Ikon pass.
 
 ## Methodology and Analysis
-To complete this analysis, a Linear Regression model was built using TfidfVectorizer on the text of each subreddit post. This method gave a numerical representation to each word in the post and assigned weights based on word-frequency, quantifying the importance per word. Several models were tested and compared using GridSearchCV and RandomizedSearchCV across several tuned hyperparameters. Ensembling was attempted to enhance testing accuracy, as was Random Forest in attempt to reduce any overfitting.
+To complete this analysis, a Logistic Regression model was built using TfidfVectorizer on the text of each subreddit post. This method gave a numerical representation to each word in the post and assigned weights based on word-frequency, quantifying the importance per word. Several models were tested and compared using GridSearchCV and RandomizedSearchCV across several tuned hyperparameters. Ensembling was attempted to enhance testing accuracy, as was Random Forest in attempt to reduce any overfitting.
 
 The high-level process for this analysis is outlined below.
 
@@ -162,7 +162,7 @@ While we are not ultimately using our Random Forest model, we were able to gain 
 
 <img src ="./images/Top_Words_Side_by_Side.png" width="2500" height="1500">
 
-- Notable words from the snowboarding community included boot, binding, gear, mountain, Burton, heel, toe, edge, and jump. Notable words among the Top 50 include, day, season, time, year, week, resort, powder, and trip.
+- Notable words from the snowboarding community included boot, binding, gear, mountain, Burton, heel, toe, edge, and jump. Notable words among the skier Top 50 include, day, season, time, year, week, resort, powder, and trip.
 
 - Notable bigrams among the skiing community was the mention of several skiing locations, such as east coast, North America, Jackson Hole, Park City, Winter Park, Palisade Tahoe, Lake Tahoe, Vail resort, and best resort. 
 
@@ -172,23 +172,21 @@ Leveraging the insights gained from our community exploration, Burton Snowboards
 
 Based on the findings of this analysis, below are the key recommendations for Burton Snowboards to focus on which will help them retain current customers and gain new ones.
 
-<u>**_1. Focus for Snowboarders_**</u>
+<span style = 'color: dodgerblue'><u>**_1. Focus for Snowboarders_**</u></span>
 
-Whether for current snowboarding customers or new, our model should be used to classify Reddit users in the snowboarding community for targeted advertising.
-- Burton should continue with current digital transformation efforts to increase E-commerce and direct-to-consumer business by doing the following:
-    1. <u>**Marketing**</u>: Advertise **promotional offers** and **exclusive discounts** to the snowboard community for gear and accessories
-    2. <u>**Partnerships**</u>: Partnering with professionals and snowboard schools to package **lessons and rentals/equipment** if done through Burton
-    3. <u>**Content Creation**</u>: Create and deliver targeted content (video tutorials, blog articles, social media posts) on **technical tips and tutorials**
+Whether for current snowboarding customers or new, our model should be used to classify Reddit users in the snowboarding community for targeted advertising. Burton should continue with current digital transformation efforts to increase E-commerce and direct-to-consumer business by doing the following:
+1. <u>**Marketing**</u>: Advertise **promotional offers** and **exclusive discounts** to the snowboard community for gear and accessories
+2. <u>**Partnerships**</u>: Partner with professionals and snowboard schools to package **lessons and rentals/equipment** if bought through Burton
+3. <u>**Content Creation**</u>: Create and deliver targeted content (video tutorials, blog articles, social media posts) on **technical tips and tutorials**
 
-<u>**_2. Focus for/on Skiers_**</u>
+<span style = 'color: dodgerblue'><u>**_2. Focus for/on Skiers_**</u></span>
 
-In the USA, there are roughly twice as many skiers as snowboarders (15 vs. 8M)(_[6](https://www.statista.com/topics/1770/winter-sports/#topicOverview)_), therefore, it is critical that Burton expand their reach to more skiers using our model.
-- While the equipment needs of skiers and snowboarders are different, Burton must conduct outreach to more skiers about their high-performance apparel and accessories, which can be enjoyed by skiers and snowboarders alike. The following actions are recommended:
-     1. <u>**Partnerships**</u>: Leverage the skiing communities interest in trip-planning by **partnering with ski resorts and travel agencies** to create exclusive packages that include discounted apparel from Burton, as well as exclusive offers on lift tickets, equipment rentals, and lodging.
-        - <u>**Global Expansion**</u>: Leverage any traction gained by these partnerships to expand Burton's **global presence and reputation**, especially in European countries with a high participation of winter activity (e.g., Austria, France, Italy, Switzerland (_[7](https://www.factmr.com/report/229/snowboard-equipment-market)_). 
-            - Options include expanding retail stores in these locations (either at the resorts or in the general area), and/or by hosting joint skiing and snowboarding events in these areas.
-    2. <u>**Website Promotion**</u>: Promote skiing section of Burton's website by directing skiers to **special/exclusive apparel and accessory offers**
-    3. <u>**Travel Guide**</u>: Develop travel and destination guides highlighting the **best ski resorts or locations** for winter activity. Provide insights on optimal times of the year to plan the activity, and showcase the utility and **advantages of Burton** products as essential gear.
+In the USA, there are roughly twice as many skiers as snowboarders (15 vs. 8M)(_[6](https://www.statista.com/topics/1770/winter-sports/#topicOverview)_), therefore, it is critical that Burton expand their reach to more skiers using our model. While the equipment needs of skiers and snowboarders are different, Burton must conduct outreach to more skiers about their high-performance apparel and accessories, which can be enjoyed by skiers and snowboarders alike. The following actions are recommended:
+1. <u>**Partnerships**</u>: Leverage the skiing communities interest in trip-planning by **partnering with ski resorts and travel agencies** to create exclusive packages that include discounted apparel from Burton, as well as exclusive offers on lift tickets, equipment rentals, and lodging.
+    - <u>**Global Expansion**</u>: Leverage any traction gained by these partnerships to expand Burton's **global presence and reputation**, especially in European countries with a high participation of winter activity (e.g., Austria, France, Italy, Switzerland) (_[7](https://www.factmr.com/report/229/snowboard-equipment-market)_). 
+    - Options include expanding retail stores in these locations (either at the resorts or in the general area), and/or by hosting joint skiing and snowboarding events in these areas.
+2. <u>**Website Promotion**</u>: Promote skiing section of Burton's website by directing skiers to **special/exclusive apparel and accessory offers**
+3. <u>**Travel Guide**</u>: Develop travel and destination guides highlighting the **best ski resorts or locations** for winter activity. Provide insights on optimal times of the year to plan the activity, and showcase the utility and **advantages of Burton** products as essential gear.
         
 
 By leveraging our model, Burton Snowboards can gain valuable insights into consumer preferences in real-time and target both the snowboarding and skiing communities. This empowers the company to effectively target advertisements, tailor promotional offers, and strategically pursue partnerships that maximize outreach and influence. With a deeper understanding of their target audience, Burton Snowboards can optimize their marketing efforts and enhance their overall brand positioning in the market.
