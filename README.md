@@ -124,7 +124,7 @@ Each model was tested with both _CountVectorizer_ and _TfidfVectorizer_, with th
 
 ##### Final Testing Scores
 Each model outperformed the baseline significantly, but each model performed similarly in terms of accuracy. For details on the final model selected, see subsequent section.
-<img src ="./images/Model_Performances.png" width="1000" height="800">
+<img src ="./images/Model_Performances.png" width="700" height="500">
 
 #### 5. Key Findings and Insights 
 
@@ -152,15 +152,15 @@ While we are not ultimately using our Random Forest model, we were able to gain 
     
 - The skiing subreddit community had a much stronger correlation between post score and number of comments (R = 0.59, respectively), potentially indicating higher discussion-based engagement, whereas snowboarding may be more informative posts, stories, announcements, or otherwise posts which do not create as much need for discussion or comment beyond giving an upvote. 
     
-<img src ="./images/Correlation_Matrix.png" width="2000" height="1000">
+<img src ="./images/Correlation_Matrix.png" width="90" height="700">
 
 ##### Community Top Words 
 - Top words among the snowboarding community had more to do with gear, performance, technique, or the experience **in or during** the activity. Whereas, top words among the skiing community aligned more with the experience **around** the activity, such as the best place to go, the best time of year, the best passes to get (epic pass, season pass, Ikon pass). 
     - It is possible that, compared to the snowboarding community, the skiing community had more members planning general ski trips/vacations, likely including members who did not intend to partake in any slope activity at all. Therefore there may be more conversations around trip planning and recommendations, rather than the act of skiing itself - which does not seem to be the case as much for the snowboarding community. 
 
-<img src ="./images/Top_Snowboard_Unigrams.png" width="650" height="125"><img src ="./images/Top_Skiing_Unigrams.png" width="650" height="125">
+<img src ="./images/Top_Snowboard_Unigrams.png" width="650" height="400"><img src ="./images/Top_Skiing_Unigrams.png" width="650" height="400">
 
-<img src ="./images/Top_Words_Side_by_Side.png" width="2500" height="1500">
+<img src ="./images/Top_Words_Side_by_Side.png" width="1000" height="800">
 
 - Notable words from the snowboarding community included boot, binding, gear, mountain, Burton, heel, toe, edge, and jump. Notable words among the skier Top 50 include, day, season, time, year, week, resort, powder, and trip.
 
